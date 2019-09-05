@@ -35,4 +35,11 @@ func main() {
 	// fmt.Println("key1: " + readEnv["key1"])
 	// fmt.Println("key2: " + readEnv["key2"])
 	// fmt.Println("key3: " + readEnv["key3"])
+
+	// publickey, _ := crypto.LoadPublicKey("./public.pem")
+	// privatekey, _ := crypto.LoadPrivateKey("./private.pem")
+	// rsaEncrypt, _ := crypto.Encrypt("test rsa encrypt", publickey)
+	// fmt.Println("encrypt: " + rsaEncrypt)
+	// rsaDecrypt, _ := crypto.Decrypt(rsaEncrypt, privatekey)
+	// fmt.Println("decrypt: " + rsaDecrypt)
 }
